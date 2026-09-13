@@ -10,7 +10,7 @@ test "punto1: Planteo inicial" {
   
   gimenez.pagarSueldo(baigorria)
   gimenez.pagarSueldo(galvan)
-  assert.equals(268000, gimenez.fondo())
+  assert.equals(268000, gimenez.dinero())
   
 }
 
